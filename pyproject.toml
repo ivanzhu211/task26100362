@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nodeforge-rollout"
+version = "0.1.0"
+description = "NodeForge 配置平台策略灰度放量库（本地 SQLite 持久化）"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["nodeforge_rollout*"]
